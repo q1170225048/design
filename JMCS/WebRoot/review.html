@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>推荐</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link rel="stylesheet" href="css/menu.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Show Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- start menu -->
+<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/megamenu.js"></script>
+<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+<script type="text/javascript" src="js/jquery.leanModal.min.js"></script>
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+		    <script type="text/javascript">
+			    $(document).ready(function () {
+			        $('#horizontalTab').easyResponsiveTabs({
+			            type: 'default', //Types: default, vertical, accordion           
+			            width: 'auto', //auto or any width like 600px
+			            fit: true   // 100% fit in a container
+			        });
+			    });
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+
+</head>
+  <body>
+  <div class="container">
+	<div class="main-content">
+    <div class="header">
+				<div class="logo">
+					<a href="index.html" id="home"><h1>KT Game</h1></a>
+				</div>
+				<div class="search">
+					<div class="search2">
+					  <form>
+						<i class="fa fa-search"></i>
+						 <input type="text" value="搜索..." onFocus="this.value = '';"onkeydown="if(event.keyCode==13) this.blur();" onBlur="if (this.value == '') {this.value = '搜索...';} else { window.location.href='find.html';}"/>
+					  </form>
+					  
+					</div>
+					
+				</div>
+				
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;</button>
+                <h4 class="modal-title" id="myModalLabel">
+                    登录</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-8" style="border-right: 1px dotted #C2C2C2;padding-right: 30px;">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#Login" data-toggle="tab">登录</a></li>
+                            <li><a href="#Registration" data-toggle="tab">注册</a></li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="Login">
+                                <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        邮箱</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="col-sm-2 control-label">
+                                        密码</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            Sign In</button>
+                                        <a href="javascript:;">忘了密码?</a>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane" id="Registration">
+                                <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        用户名</label>
+                                    <div class="col-sm-10">
+                                        <div class="row">
+                                            
+                                            <div class="col-md-9">
+                                                <input type="text" class="form-control" placeholder="Name" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="col-sm-2 control-label">
+                                        邮箱</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="email" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile" class="col-sm-2 control-label">
+                                        手机</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-sm-2 control-label">
+                                        密码</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="password" placeholder="Password" />
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <button type="button" class="btn btn-primary btn-sm">
+                                            保存并继续</button>
+                                        <button type="button" class="btn btn-default btn-sm">
+                                            取消</button>
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="OR" class="hidden-xs">
+                            或</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row text-center sign-with">
+                            <div class="col-md-12">
+                                <h3 class="other-nw">
+                                    社交账号登录</h3>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="btn-group btn-group-justified">
+                                    <a href="#" class="btn btn-primary">QQ</a> <a href="#" class="btn btn-danger">
+                                        微信 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+//$('#myModal').modal('show');
+</script>
+				<div class="clearfix"></div>
+				
+			</div>
+	<div class="bootstrap_container">
+            <nav class="navbar navbar-default w3_megamenu" role="navigation">
+                <div class="navbar-header">
+          			<button type="button" data-toggle="collapse" data-target="#defaultmenu" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index.html" class="navbar-brand"><i class="fa fa-home"></i></a>
+				</div><!-- end navbar-header -->
+        
+            <div id="defaultmenu" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="index.html">首页</a></li>	
+                    <!-- Mega Menu -->
+					<li ><a href="top.html" > 排行榜</a></li>
+					<li class="active"><a href="review.html" > 推荐</a></li>
+                    <li ><a href="categories.html" > 发现</a></li>   
+                    <li ><a href="forum.html" > 动态</a></li>
+					
+                </ul><!-- end nav navbar-nav -->
+                
+				<ul class="nav navbar-nav navbar-right">
+					<li class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    登录</li>
+                  <li style="width:40px;height:40px">  <a href="#" class="dropdown-toggle img-circle" rel="nofollow" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"style="overflow:hidden;width:40px;height:40px;margin:8px;padding:0px 0px">
+                    <img src="https://img3.tapimg.com/avatars/166aa484455850a79f71078b1568e339.jpg?imageView2/1/w/300/q/80/format/jpg/interlace/1/ignore-error/1"style="width:40px;height:40px" alt="">
+                </a>
+                <ul class="dropdown-menu"><li><a href="/user/315791">个人中心</a></li><li><a href="/forum/groups">我的关注</a></li><li><a href="/user/315791/collected">我的收藏</a></li><li><a href="/payment/orders">我的订单</a></li><li><a href="/auth/logout">登出</a></li></ul>
+                </li>
+				</ul><!-- end nav navbar-nav navbar-right -->
+			</div><!-- end #navbar-collapse-1 -->
+            
+			</nav><!-- end navbar navbar-default w3_megamenu -->
+		</div>
+	<div class="row">
+            <div class="col-sm-12">
+                <section class="review-new">
+                    <div class="review-new-title" style="position: relative;
+    text-align: center;">
+                        <h1 style="    margin: 0 0 5px;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #14B9C8;">安利墙</h1>
+                        <p style="display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
+    color: #999;
+    background: #f2f2f2;
+    z-index: 10;">看看大家都在玩什么</p>
+                        <div class="new-title-line"></div>
+                    </div>
+                    <div class="review-new-list" data-taptap-waterfall="container" style="margin: 20px -10px;">
+                                                                                <div data-taptap-waterfall="item" class="new-list-item" style="    margin-bottom: 20px;
+    padding: 0 10px;
+    width: 33.3333333333%;">
+    <div class="taptap-review-block" id="review-5978624" style="    position: relative;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #e7e7e7;">
+        <div class="review-block-app">
+    <a href="https://www.taptap.com/app/18995" class="block-app-icon">
+        <img src="https://img.tapimg.com/market/lcs/13ab2bf4cd47f3b41f2c13f98b8ac409_360.png?imageView2/1/w/100/q/40/interlace/1/ignore-error/1" alt="永远的7日之都" title="永远的7日之都">
+    </a>
+    <div class="block-app-text">
+        <div class="app-text-title flex-text-overflow">
+            <a class="flex-text" href="https://www.taptap.com/app/18995">永远的7日之都</a>
+            
+        </div>
+        <div class="app-text-info">
+            <i class="star-background"></i>
+            <i class="star" style="width: 70px;"></i>
+        </div>
+    </div>
+</div>
+<div class="review-block-contents">
+    <div class="block-contents-text">
+        <a href="https://www.taptap.com/review/5978624">
+                            <p>感觉这个游戏不仅仅费肝，还费脑子&hellip;&hellip;不过可以感觉到游戏的新意剧情不错～一周目没看攻略，打了个灭世结局二周目还是没看攻略，比灭世好一点我可能应该看看攻略了(&bull;̩̩̩̩＿&bull;̩̩̩̩)</p>
+                    </a>
+        <i class="taptap-icon icon-quote-left"></i>
+        <i class="taptap-icon icon-quote-right"></i>
+    </div>
+    <p class="block-contents-author" style="margin: 0 0 0 -23px;
+    text-align: right;
+    color: #1b242f;">
+        — <span class="taptap-user" data-user-id="15028699">
+            <a href="https://www.taptap.com/user/15028699" class="taptap-user-name" rel="nofollow">死神起舞弄清影</a>
+        </span>            </p>
+</div>
+    <button class="btn btn-sm taptap-button-opinion vote-btn vote-up"
+        data-taptap-ajax="vote"
+        data-url="https://www.taptap.com/ajax/vote"
+        data-value="up"
+        data-obj="review"
+        data-id="5978624">
+    <i></i>
+    <span data-taptap-ajax-vote="count">1</span>
+</button>
+
+
+
+    </div>
+</div>
+</div>
+</section>
+</div>
+</div>
+
+		</div><!-- end main container -->
+		</div><!-- end container -->
+  </body>
+</html>

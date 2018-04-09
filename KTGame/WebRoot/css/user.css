@@ -1,0 +1,266 @@
+.col-sm-12 {
+    position: static;
+}
+section.user-page-header {
+    margin: 0 0 55px;
+    padding: 2px 50px 0;
+}
+section.user-page-header .page-header-left {
+    float: left;
+}
+section.user-page-header .page-header-left .header-left-avatar {
+    float: left;
+    width: 146px;
+    height: 146px;
+    border: 3px solid #fff;
+    overflow: hidden;
+}
+section.user-page-header .page-header-left .header-left-avatar>img {
+    width: 100%;
+}
+section.user-page-header .page-header-left .header-left-text {
+    margin: 0 0 0 166px;
+    padding: 25px 0 0;
+    width: 590px;
+}
+section.user-page-header .page-header-left .header-left-text>h1 {
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+section.user-page-header .page-header-left .header-left-text>span {
+    display: inline-block;
+    vertical-align: sub;
+    margin-left: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+section.user-page-header .page-header-left .header-left-text .passed-etiquette-exam {
+    background-color: #ccc;
+    color: #fff;
+    display: inline-block;
+    padding: 0 6px;
+    border-radius: 4px;
+}
+section.user-page-header .page-header-left .header-left-text>p.left-text-intro {
+    max-height: 80px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+section.user-page-header .page-header-left .header-left-text>p {
+    margin: 10px 0 20px;
+    color: #999;
+}
+section.developer-app-submit .app-submit-main.form>form .form-footer section.user-page-header .page-header-left .header-left-text .left-text-btns .btn-save-verifying, section.user-page-header .page-header-left .header-left-text .left-text-btns .btn, section.user-page-header .page-header-left .header-left-text .left-text-btns section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying {
+    margin-right: 5px;
+    padding: 4px 10px;
+    min-width: 80px;
+    display: inline-block;
+    line-height: 20px;
+}
+.btn-primary {
+    border-color: #12A7B4;
+    background: #12A7B4;
+}
+.btn-default, .btn-primary {
+    border-radius: 3px;
+    box-shadow: none;
+}
+section.user-page-header .page-header-left .header-left-text .left-text-btns.admin {
+    margin-top: 10px;
+    position: relative;
+}
+section.user-page-header .page-header-right {
+    float: right;
+    padding: 35px 0;
+    width: 280px;
+}
+section.user-page-header .page-header-right .header-right-stats {
+    margin: 0 0 15px;
+}
+section.user-page-header .page-header-right .header-right-stats>li {
+    float: left;
+    padding: 5px 0;
+    width: 33.3333333333%;
+}
+section.user-page-header .page-header-right .header-right-stats>li:nth-child(2) {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+section.user-page-header .page-header-right .header-right-stats>li span.right-stats-number {
+    line-height: 30px;
+    font-size: 24px;
+}
+section.user-page-header .page-header-right .header-right-stats>li span {
+    display: block;
+    text-align: center;
+    color: #14B9C8;
+}
+.taptap-page-main {
+    float: left;
+    width: 66.1538461538%;
+}
+section.user-home-body {
+    margin-bottom: 30px;
+}
+div.user-home-side section.user-home-body .section-title-developer, section.user-home-body .section-title, section.user-home-body div.user-home-side .section-title-developer {
+    margin: 30px 30px 36px;
+    padding-top: 10px;
+}
+.section-title, div.user-home-side .section-title-developer {
+	padding-top: 10px;
+    margin: 30px 30px 36px;
+    border-top: 1px solid #ddd;
+    
+}
+.section-title>h3, div.user-home-side .section-title-developer>h3 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 0 0 8px;
+    line-height: 20px;
+    font-size: 18px;
+    border-left: 4px solid #14B9C8;
+}
+div.user-home-side section.user-home-body .section-title-developer>small, section.user-home-body .section-title>small, section.user-home-body div.user-home-side .section-title-developer>small {
+    margin: 0;
+}
+.section-title>small, div.user-home-side .section-title-developer>small {
+    float: left;
+    display: block;
+    margin: 5px 0 0 10px;
+    font-size: 16px;
+    color: #666;
+}
+div.user-home-side section.user-home-body .section-title-developer>small>a, section.user-home-body .section-title>small>a, section.user-home-body div.user-home-side .section-title-developer>small>a {
+    color: #14B9C8;
+}
+.section-title>a, div.user-home-side .section-title-developer>a {
+    line-height: 20px;
+    color: #14B9C8;
+}
+section.user-home-body>ul {
+    margin-bottom: 0;
+}
+ul.user-apps {
+    margin-left: 20px;
+}
+ul.user-apps>li {
+    float: left;
+    margin-left: 30px;
+    padding: 0;
+    border: none;
+}
+ul.user-apps>li .app-item-icon {
+    display: block;
+    margin: 0 0 15px;
+    width: 128px;
+    height: 128px;
+}
+ul.user-apps>li .app-item-icon>img {
+    width: 100%;
+}
+ul.user-apps>li .app-item-title {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    width: 128px;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+ul.user-apps>li .app-item-title>h2 {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 16px;
+    white-space: nowrap;
+}
+ul.user-apps>li .app-item-title .title-end {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 20px;
+    background-color: rgba(242,242,242,0);
+    background-image: linear-gradient(90deg,rgba(242,242,242,0),#f2f2f2);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=rgba(242, 242, 242, 0), endColorstr=#f2f2f2)";
+}
+.taptap-page-side {
+    float: right;
+    width: 32.3076923077%;
+}
+div.user-home-side .section-title-developer>small, div.user-home-side .section-title>small {
+    margin: 0;
+}
+div.user-home-side .section-title-developer>small>a, div.user-home-side .section-title>small>a {
+    color: #14B9C8;
+}
+div.user-home-side .home-side-developers, div.user-home-side .home-side-users {
+    margin: 20px;
+    font-size: 0;
+}
+div.user-home-side .home-side-developers>li:first-of-type, div.user-home-side .home-side-users>li:first-of-type {
+    padding-top: 0;
+}
+div.user-home-side .home-side-developers>li, div.user-home-side .home-side-users>li {
+    padding: 12.5px 0 12.5px 20px;
+}
+div.user-home-side .home-side-developers>li .developer-item-avatar, div.user-home-side .home-side-developers>li .user-item-avatar, div.user-home-side .home-side-users>li .developer-item-avatar, div.user-home-side .home-side-users>li .user-item-avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+div.user-home-side .home-side-developers>li .developer-item-avatar>img, div.user-home-side .home-side-developers>li .user-item-avatar>img, div.user-home-side .home-side-users>li .developer-item-avatar>img, div.user-home-side .home-side-users>li .user-item-avatar>img {
+    width: 100%;
+}
+div.user-home-side .home-side-developers .home-side-users>li .side-developers-container, div.user-home-side .home-side-developers>li .side-developers-container, div.user-home-side .home-side-developers>li .side-users-container, div.user-home-side .home-side-users>li .home-side-developers .side-developers-container, div.user-home-side .home-side-users>li .side-users-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+div.user-home-side .home-side-developers .home-side-users>li .side-developers-container .developer-item-name, div.user-home-side .home-side-developers .home-side-users>li .side-developers-container .user-item-name, div.user-home-side .home-side-developers .side-developers-container .home-side-users>li .side-users-container .developer-item-name, div.user-home-side .home-side-developers>li .side-developers-container .developer-item-name, div.user-home-side .home-side-developers>li .side-developers-container .user-item-name, div.user-home-side .home-side-developers>li .side-users-container .user-item-name, div.user-home-side .home-side-users>li .home-side-developers .side-developers-container .developer-item-name, div.user-home-side .home-side-users>li .home-side-developers .side-developers-container .user-item-name, div.user-home-side .home-side-users>li .side-users-container .user-item-name {
+    display: block;
+    overflow: hidden;
+    max-width: 170px;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+a {
+    color: #333;
+}
+div.user-home-side .home-side-developers .home-side-users>li .side-developers-container>p, div.user-home-side .home-side-developers>li .side-developers-container>p, div.user-home-side .home-side-developers>li .side-users-container>p, div.user-home-side .home-side-users>li .home-side-developers .side-developers-container>p, div.user-home-side .home-side-users>li .side-users-container>p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #999;
+}
+div.user-home-side .home-side-developers>li .taptap-button-friendship, div.user-home-side .home-side-users>li .taptap-button-friendship {
+    float: right;
+    margin-top: 10px;
+    padding: 0;
+    color: #14B9C8;
+    display: none;
+    border: none;
+    background: 0 0;
+}
+.taptap-button-collect.btn-default.active, .taptap-button-collect.btn-default:active, .taptap-button-collect.btn-default:focus, .taptap-button-collect.btn-default:hover, .taptap-button-friendship-simple.btn-default.active, .taptap-button-friendship-simple.btn-default:active, .taptap-button-friendship-simple.btn-default:focus, .taptap-button-friendship-simple.btn-default:hover {
+    border-color: #14B9C8;
+    background: #fff;
+}
+.taptap-button-friendship.btn-default .following, .taptap-button-friendship.btn-primary .follow {
+    display: block;
+}
+.taptap-button-friendship>span {
+    display: none;
+}
+div.user-home-side .section-title-developer {
+    padding-top: 17.5px;
+}

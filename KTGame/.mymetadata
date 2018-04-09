@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="KTGame"
+  id="myeclipse.1519804676413"
+  context-root="/KTGame"
+  j2ee-spec="6.0"
+  archive="KTGame.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
