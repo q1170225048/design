@@ -14,8 +14,10 @@ public class GameTO
 	private String rating;
 	private String dateOfRelease;
 	private String genres;
-	private int    state;
+	private String  state;
 	private int   downloadtimes;
+	private String isPaid;
+	private String price;
 	public GameTO()
 	{
 		
@@ -24,7 +26,8 @@ public class GameTO
 	{
 		this.gameId=gameId;
 	}
-	public GameTO(int gameId,String gameName,String rating,String developer,String download,String intro,String dateOfRelease,String version,String screenShot,String label,String size,int state,int downloadtimes,String genres)
+	public GameTO(int gameId,String gameName,String rating,String developer,String download,String intro,String dateOfRelease,String version,String screenShot,String label,
+			String size,String state,int downloadtimes,String genres,String price,String isPaid)
 	{
 		this.dateOfRelease=dateOfRelease;
 		this.developer=developer;
@@ -40,6 +43,8 @@ public class GameTO
 		this.downloadtimes=downloadtimes;
 		this.genres=genres;
 		this.state=state;
+		this.isPaid=isPaid;
+		this.price=price;
 	}
 	public int getGameId()
 	{
@@ -130,11 +135,11 @@ public class GameTO
 		this.dateOfRelease = dateOfRelease;
 	}
 	
-	public int getState()
+	public String getState()
 	{
 		return state;
 	}
-	public void setState(int state)
+	public void setState(String state)
 	{
 		this.state = state;
 	}
@@ -153,5 +158,21 @@ public class GameTO
 	public void setGenres(String genres)
 	{
 		this.genres = genres;
+	}
+	public String getIsPaid()
+	{
+		return isPaid;
+	}
+	public void setIsPaid(String isPaid)
+	{
+		this.isPaid = isPaid;
+	}
+	public String getPrice()
+	{
+		return price;
+	}
+	public void setPrice(String price)
+	{
+		this.price = price;
 	}
 }

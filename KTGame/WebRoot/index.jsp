@@ -89,19 +89,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane active" id="Login">
-                                <form role="form" class="form-horizontal">
+                                <form role="form" class="form-horizontal"action="Login"method="post">
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 control-label">
                                         邮箱</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email1" placeholder="Email" />
+                                        <input type="email" class="form-control" name="email" placeholder="Email" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1" class="col-sm-2 control-label">
                                         密码</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" />
+                                        <input type="password" class="form-control"name="password" id="exampleInputPassword1" placeholder="password" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -109,14 +109,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     </div>
                                     <div class="col-sm-10">
                                         <button type="submit" class="btn btn-primary btn-sm">
-                                            Sign In</button>
+                                            登录</button>
                                         <a href="javascript:;">忘了密码?</a>
                                     </div>
                                 </div>
                                 </form>
                             </div>
                             <div class="tab-pane" id="Registration">
-                                <form role="form" class="form-horizontal">
+                                <form role="form" class="form-horizontal"action="Reg"method="post">
                                 <div class="form-group">
                                     <label for="email" class="col-sm-2 control-label">
                                         用户名</label>
@@ -124,7 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                         <div class="row">
                                             
                                             <div class="col-md-9">
-                                                <input type="text" class="form-control" placeholder="Name" />
+                                                <input type="text" class="form-control"name="name" placeholder="Name" />
                                             </div>
                                         </div>
                                     </div>
@@ -133,21 +133,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     <label for="email" class="col-sm-2 control-label">
                                         邮箱</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="email" placeholder="Email" />
+                                        <input type="email" class="form-control" name="email" placeholder="Email" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="mobile" class="col-sm-2 control-label">
                                         手机</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+                                        <input type="text" class="form-control" name="mobile" placeholder="Mobile" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="col-sm-2 control-label">
                                         密码</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="password" placeholder="Password" />
+                                        <input type="password" class="form-control" name="password" placeholder="Password" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -199,12 +199,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         
             <div id="defaultmenu" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">首页</a></li>	
+                    <li class="active"><a href="index.jsp">首页</a></li>	
                     <!-- Mega Menu -->
-					<li ><a href="top.html" > 排行榜</a></li>
-					<li ><a href="review.html" > 推荐</a></li>
-                    <li ><a href="categories.html" > 发现</a></li>   
-                    <li ><a href="forum.html" > 动态</a></li>
+					<li ><a href="top.jsp" > 排行榜</a></li>
+					<li ><a href="review.jsp" > 推荐</a></li>
+                    <li ><a href="categories.jsp" > 发现</a></li>   
+                    <li ><a href="forum.jsp" > 动态</a></li>
 					
                 </ul><!-- end nav navbar-nav -->
                 
@@ -232,16 +232,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="flexslider">
 						<ul class="slides">
 						<li>
-							<a href="games.html?gID=1"><img src="images/pic1.jpg" class="img-responsive" alt="游戏1" /></a>
+							<a href="games.jsp?gID=1"><img src="images/pic1.jpg" class="img-responsive" alt="游戏1" /></a>
 						</li>
 						<li>
-							<img src="images/pic2.jpg" class="img-responsive" alt="" />
+							<a href="games.jsp?gID=1"><img src="images/pic2.jpg" class="img-responsive" alt="" /></a>
 						</li>
 						<li>
-							<img src="images/pic3.jpg" class="img-responsive" alt="" />
+							<a href="games.jsp?gID=1"><img src="images/pic3.jpg" class="img-responsive" alt="" /></a>
 						</li>
 						<li>
-							<img src="images/pic4.jpg" class="img-responsive" alt="" />
+							<a href="games.jsp?gID=1"><img src="images/pic4.jpg" class="img-responsive" alt="" /></a>
 						</li>
 				  </ul>
 				</div>
@@ -283,12 +283,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="tab_img">
 									  <li>
 										<div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-1.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-1.jpg" class="img-responsive" alt=""/></a>
 										   <div class="info1"> </div>
 											 <div class="mask">
 						                     </div>
 								              <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp?gId=">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>97</h5>
 														<p>% <br> 想玩</p>
@@ -299,12 +299,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 									  <li>
 										<div class="view view-first">
-					   		  			   <a href="movie-select-show.html"><img src="images/pic-2.jpg" class="img-responsive" alt=""/></a>
+					   		  			   <a href="games.jsp"><img src="images/pic-2.jpg" class="img-responsive" alt=""/></a>
 										   <div class="info1"> </div>
 											 <div class="mask">
 						                     </div>
 								              <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>98</h5>
 														<p>% <br> 想玩</p>
@@ -315,12 +315,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 									  <li>
 										<div class="view view-first">
-					   		  			   <a href="movie-select-show.html"><img src="images/pic-10.jpg" class="img-responsive" alt=""/></a>
+					   		  			   <a href="games.jsp"><img src="images/pic-10.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>100</h5>
 														<p>% <br> 想玩</p>
@@ -336,12 +336,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="tab_img">
 									  <li>
 										<div class="view view-first">
-					   		  			   <a href="movie-select-show.html"><img src="images/pic-8.jpg" class="img-responsive" alt=""/></a>
+					   		  			   <a href="games.jsp"><img src="images/pic-8.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>92</h5>
 														<p>% <br> 想玩</p>
@@ -352,12 +352,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 									  <li>
 										<div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-3.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-3.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>100</h5>
 														<p>% <br> 想玩</p>
@@ -368,12 +368,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 										<li class="last">
 										  <div class="view view-first">
-					   		  			   <a href="movie-select-show.html"><img src="images/pic-9.jpg" class="img-responsive" alt=""/></a>
+					   		  			   <a href="games.jsp"><img src="images/pic-9.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								               <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>74</h5>
 														<p>% <br> 想玩</p>
@@ -389,12 +389,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="tab_img">
 										<li>
 										  <div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-4.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-4.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>88</h5>
 														<p>% <br> 想玩</p>
@@ -405,12 +405,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 										<li>
 										  <div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-12.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-12.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>100</h5>
 														<p>% <br> 想玩</p>
@@ -421,12 +421,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</li>
 										<li class="last">
 										  <div class="view view-first">
-					   		  			   <a href="movie-select-show.html"><img src="images/pic-5.jpg" class="img-responsive" alt=""/></a>
+					   		  			   <a href="games.jsp"><img src="images/pic-5.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 													<div class="percentage-w-t-s">
 														<h5>90</h5>
 														<p>% <br> 想玩</p>
@@ -442,34 +442,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<ul class="tab_img">
 									  <li>
 										<div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-6.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-6.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">查看详情</a>
+													<a href="games.jsp">查看详情</a>
 											  </div>
 										  </div>
 										</li>
 										<li>
 										  <div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-1.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-1.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">马上预约</a>
+													<a href="games.jsp">马上预约</a>
 											  </div>
 										  </div>
 										</li>
 										<li>
 										  <div class="view view-first">
-					   		  			  <a href="movie-select-show.html"> <img src="images/pic-9.jpg" class="img-responsive" alt=""/></a>
+					   		  			  <a href="games.jsp"> <img src="images/pic-9.jpg" class="img-responsive" alt=""/></a>
 											 <div class="mask">
 						                        <div class="info1"> </div>
 								              </div>
 								                <div class="tab_desc">
-													<a href="movie-select-show.html">马上预约</a>
+													<a href="games.jsp">马上预约</a>
 											  </div>
 										  </div>
 										</li>
@@ -487,84 +487,84 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f4.jpg" alt="" /></a>
+									<a href="games.jsp"><img src="images/f4.jpg" alt="" /></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏1</a>
+										<a href="games.jsp">游戏1</a>
 										<p>标签1</p>
 									</div>
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f5.jpg" alt="" /></a>
+									<a href="games.jsp"><img src="images/f5.jpg" alt="" /></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏2</a>
+										<a href="games.jsp">游戏2</a>
 										<p>标签</p>
 									</div>
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f6.jpg" alt="" /></a>
+									<a href="games.jsp"><img src="images/f6.jpg" alt="" /></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏3 </a>
+										<a href="games.jsp">游戏3 </a>
 										<p>标签</p>
 									</div>
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f1.jpg" alt=""></a>
+									<a href="games.jsp"><img src="images/f1.jpg" alt=""></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏4</a>
+										<a href="games.jsp">游戏4</a>
 										<p>标签</p>
 									</div>
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f2.jpg" alt=""></a>
+									<a href="games.jsp"><img src="images/f2.jpg" alt=""></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏5</a>
+										<a href="games.jsp">游戏5</a>
 										<p>标签4</p>
 									</div>
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
 						<li>
 							<div class="f-movie">
 								<div class="f-movie-img">
-									<a href="movies.html"><img src="images/f3.jpg" alt=""></a>
+									<a href="games.jsp"><img src="images/f3.jpg" alt=""></a>
 								</div>
 									<div class="f-movie-name">
-										<a href="movies.html">游戏6</a>
+										<a href="games.jsp">游戏6</a>
 										<p>标签14</p>
 									</div>								 
 								<div class="f-buy-tickets">
-									<a href="movie-select-show.html">查看详情</a>
+									<a href="games.jsp">查看详情</a>
 								</div>
 							</div>
 						</li>
@@ -578,52 +578,52 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>1</li>
-						<li><a href="movie-single.html">荒野求生</a></li>
+						<li><a href="games.jsp">荒野求生</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>2</li>
-						<li><a href="movie-single.html">光荣使命</a></li>
+						<li><a href="games.jsp">光荣使命</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>3</li>
-						<li><a href="movie-single.html">冒险</a></li>
+						<li><a href="games.jsp">冒险</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>4</li>
-						<li><a href="movie-single.html">末日来袭</a></li>
+						<li><a href="games.jsp">末日来袭</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>5</li>
-						<li><a href="movie-single.html">月圆之夜</a></li>
+						<li><a href="games.jsp">月圆之夜</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>6</li>
-						<li><a href="movie-single.html">剑与家园</a></li>
+						<li><a href="games.jsp">剑与家园</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>7</li>
-						<li><a href="movie-single.html">崩坏3</a></li>
+						<li><a href="games.jsp">崩坏3</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>8</li>
-						<li><a href="movie-single.html">放置江湖</a></li>
+						<li><a href="games.jsp">放置江湖</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>9</li>
-						<li><a href="movie-single.html">钢铁战队</a></li>
+						<li><a href="games.jsp">钢铁战队</a></li>
 					</ul>
 					<ul class="mov_list">
 						<li><i class="fa fa-star"></i></li>
 						<li>10</li>
-						<li><a href="movie-single.html">永远的朋友</a></li>
+						<li><a href="games.jsp">永远的朋友</a></li>
 					</ul>
 				</div>
 				<div class="quick-pay">

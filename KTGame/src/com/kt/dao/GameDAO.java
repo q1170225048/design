@@ -29,6 +29,9 @@ public class GameDAO
 			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("release"), Bytes.toBytes(game.getDateOfRelease()));
 			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("state"), Bytes.toBytes(game.getState()));
 			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("downloadtimes"), Bytes.toBytes(0));
+			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("genres"), Bytes.toBytes(game.getGenres()));
+			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("ispaid"), Bytes.toBytes(game.getIsPaid()));
+			put.addColumn(Bytes.toBytes("info"), Bytes.toBytes("price"), Bytes.toBytes(game.getPrice()));
 			try
 			{
 				tb.put(put);
@@ -60,6 +63,11 @@ public class GameDAO
 			game.setScreenShot(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("screenshot"))));
 			game.setSize(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("size"))));
 			game.setVersion(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("version"))));
+			game.setState(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("state"))));
+			game.setDownloadtimes(Bytes.toInt(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("downloadtimes"))));
+			game.setIsPaid(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("ispaid"))));
+			game.setPrice(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("price"))));
+			game.setGenres(Bytes.toString(rs.getValue(Bytes.toBytes("info"), Bytes.toBytes("genres"))));
 			tb.close();
 		} catch (IOException e)
 		{
@@ -72,12 +80,23 @@ public class GameDAO
 	{
 		GameDAO gdao=new GameDAO();
 		GameTO game=new GameTO();
-		game.setGameId(1);
-		game.setDateOfRelease("20180307");
-		game.setGameName("无敌的我");
-		game.setDownload("454115.com");
-		
-		gdao.insert(game);
-		System.out.println("OK");
+//		game.setGameId(1);
+//		game.setDateOfRelease("20180307");
+//		game.setGameName("无敌的我");
+//		game.setDownload("454115.com");
+//		game.setDeveloper("网易");
+//		game.setIntro("测试");
+//		game.setGenres("dong");
+//		game.setIsPaid("1");
+//		game.setState("1");
+//		game.setLabel("dada");
+//		game.setScreenShot("adad.png");
+//		game.setPrice("0");
+//		game.setSize("3M");
+//		game.setVersion("1.0");
+//		game.setRating("8.0");
+//		gdao.insert(game);
+		game=gdao.getInfoById(1);
+		System.out.println(game.getDateOfRelease());
 	}
 }

@@ -1,0 +1,52 @@
+section.app-top-list {
+    padding: 0 20px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    width:1140px;
+    position: center;
+}
+.taptap-developer-card {
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+.taptap-developer-card .developer-card-avatar>img {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.12);
+}
+.taptap-developer-card .developer-card-order.colored {
+    color: #FE931B;
+}
+.taptap-developer-card .developer-card-order {
+    text-align: center;
+    width: 30px;
+    color: #999;
+}
+.taptap-developer-card>* {
+    display: inline-block;
+    vertical-align: middle;
+}
+.taptap-developer-card .developer-card-order+.developer-card-avatar {
+    margin-left: 10px;
+}
+
+.taptap-developer-card .developer-card-name {
+    margin-left: 10px;
+    max-width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.taptap-developer-card .developer-card-score {
+    margin-left: 10px;
+    color: #14B9C8;
+}
+.taptap-developer-card .taptap-button-friendship {
+    position: absolute;
+    margin-top: -16px;
+    top: 50%;
+    right: 0;
+}

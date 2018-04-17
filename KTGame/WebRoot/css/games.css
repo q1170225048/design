@@ -1,0 +1,1680 @@
+.taptap-breadcrumb {
+    margin-bottom: 20px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+}
+.container {
+    padding-left: 65px;
+    padding-right: 65px;
+    width: 1170px;
+}
+.taptap-breadcrumb .breadcrumb {
+    margin: 0;
+    padding: 5px 15px;
+    border-radius: 0;
+    background: 0 0;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.taptap-page-main {
+    float: left;
+    width: 66.1538461538%;
+}
+section.app-show-main .show-main-header {
+    position: relative;
+    margin: 0 0 16px;
+    padding: 30px 30px 0;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+section.app-show-main .show-main-header .main-header-icon {
+    float: left;
+    position: relative;
+    width: 180px;
+}
+section.app-show-main .show-main-header .main-header-icon .header-icon-body>img {
+    width: 100%;
+}
+section.app-show-main .show-main-header .main-header-icon .main-header-rec {
+    padding: 15px 0;
+    text-align: center;
+}
+section.app-show-main .show-main-header .main-header-icon .main-header-rec>span {
+    padding: 3px 14px;
+    background-color: #b4ebfa;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #14B9C8;
+}
+section.app-show-main .show-main-header .main-header-icon .app-qrcode-download.has-editors-choice {
+    bottom: 5px;
+}
+section.app-show-main .show-main-header .main-header-icon .app-qrcode-download {
+    position: absolute;
+    left: -32px;
+    bottom: -25px;
+    border: none;
+    background: 0 0;
+    font-size: 24px;
+    color: #14B9C8;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.icon-font {
+    font-family: iconfont!important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+section.app-show-main .show-main-header .main-header-text {
+    position: relative;
+    margin-left: 200px;
+    width: 384px;
+    min-height: 180px;
+    padding-bottom: 65px;
+}
+section.app-show-main .show-main-header .main-header-text>h1 {
+    display: inline-block;
+    margin: 0;
+    line-height: 30px;
+    max-height: 60px;
+    vertical-align: top;
+    font-size: 24px;
+    overflow: hidden;
+    max-width: 90%;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-author {
+    display: block;
+    white-space: nowrap;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-author>a, section.app-show-main .show-main-header .main-header-text .header-text-author>span {
+    font-size: 12px;
+    color: #14B9C8;
+    line-height: 18px;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-author a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin-left: 0;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-download {
+    position: absolute;
+    bottom: 0;
+    width: 115%;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-download .text-download-text {
+    margin: 0;
+    color: #666;
+    overflow: hidden;
+}
+section.app-show-main .show-main-header .taptap-button-friendship {
+    background: 0 0;
+    border-color: transparent;
+    float: left;
+    padding-left: 0;
+    padding-right: 8px;
+    min-width: 64px;
+}
+.taptap-button-collect.btn-default, .taptap-button-friendship-simple.btn-default {
+    padding: 4px;
+    border-radius: 50%;
+    border-color: #ddd;
+    background: #ddd;
+}
+.taptap-button-friendship {
+    padding: 5px 12px;
+    min-width: 82px;
+}
+.btn-default {
+    background: 0 0;
+}
+.btn-default, .btn-default:hover {
+    color: #12A7B4;
+    border-color: #12A7B4;
+}
+.btn-default, .btn-primary {
+    border-radius: 3px;
+    box-shadow: none;
+}
+section.app-show-main .show-main-header .taptap-button-friendship>i {
+    float: left;
+    margin-right: 5px;
+}
+.taptap-button-collect>i.app, .taptap-button-friendship-simple>i.app {
+    background: url(../images/collect@2x.png) no-repeat;
+    background-size: 20px;
+}
+.taptap-button-collect>i, .taptap-button-friendship-simple>i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://img.tapimg.com/market/images/561b29f701aec629e8999ff6f6fcc21c.png) 0 -22px no-repeat;
+    background-size: 20px;
+}
+section.app-show-main .show-main-header .taptap-button-friendship>span {
+    float: right;
+    padding-top: 1px;
+    color: #14B9C8;
+    display: inline-block;
+}
+section.app-show-main .show-main-header .main-header-text .header-text-download .text-download-text .text-download-times {
+    float: left;
+    display: block;
+    padding: 4px 0;
+    line-height: 23px;
+    color: #999;
+    height: 31px;
+}
+.taptap-button-download {
+    float: left;
+    position: relative;
+}
+.download-btn-wrap .taptap-button-download:nth-of-type(1) .btn, .download-btn-wrap .taptap-button-download:nth-of-type(1) section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .download-btn-wrap .taptap-button-download:nth-of-type(1) .btn-save-verifying {
+    margin-left: 0;
+}
+.download-btn-wrap .btn, .download-btn-wrap section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .download-btn-wrap .btn-save-verifying {
+    margin-left: 10px;
+}
+.taptap-button-download .btn-default, .taptap-button-download .btn-default:active, .taptap-button-download .btn-default:focus, .taptap-button-download .btn-default:hover {
+    color: #fff;
+    background: #BFBFBF;
+    border-color: #BFBFBF;
+    cursor: auto;
+}
+.taptap-button-download .btn, .taptap-button-download section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-button-download .btn-save-verifying {
+    padding: 7px 15px;
+    min-width: 125px;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",Tahoma,"Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif!important;
+}
+.taptap-button-download .btn-default.android>i {
+    background: url(https://img.tapimg.com/market/images/aaa70e89fd6eca83e657e8c3755c086b.png) -52px 0 no-repeat;
+    background-size: 100px;
+}
+.taptap-button-download .btn>i, .taptap-button-download section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying>i, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-button-download .btn-save-verifying>i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.taptap-button-download .btn>span, .taptap-button-download section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying>span, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-button-download .btn-save-verifying>span {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+.taptap-button-download .btn.ios, .taptap-button-download section.developer-app-submit .app-submit-main.form>form .form-footer .ios.btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-button-download .ios.btn-save-verifying {
+    margin-left: 10px;
+}
+.taptap-button-download .btn-default.ios>i {
+    background: url(https://img.tapimg.com/market/images/aaa70e89fd6eca83e657e8c3755c086b.png) 0 -90px no-repeat;
+    background-size: 100px;
+}
+section.app-show-main .show-main-header .main-header-text .app-block {
+    position: absolute;
+    left: 0;
+    color: #999;
+    bottom: -26px;
+    font-size: 12px;
+}
+section.app-show-main .show-main-header .main-header-tab {
+    clear: both;
+    margin: 30px -30px 0;
+    border-top: 1px solid #eee;
+}
+.nav-justified>li {
+    display: table-cell;
+    width: 1%;
+}
+.nav-justified>li {
+    float: none;
+}
+section.app-show-main .show-main-header .main-header-tab .nav>li.active>a {
+    color: #14B9C8;
+    border-bottom-color: #14B9C8;
+}
+section.app-show-main .show-main-header .main-header-tab .nav>li>a {
+    padding: 12px 11px 8px;
+    line-height: 25px;
+    max-height: 49px;
+    font-size: 18px;
+    color: #333;
+    border-radius: 0;
+    border-bottom: 4px solid transparent;
+    background: 0 0;
+    text-align: center;
+}
+section.app-show-main .show-main-header .main-header-tab .nav>li>a>small {
+    font-size: 12px;
+}
+section.app-show-main .show-main-header .app-rating-block {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background: url(/img/background/rating@2x.png) 0 -92px no-repeat;
+    background-size: 80px;
+    
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+section.app-show-main .show-main-header .app-rating-block .app-rating-container {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    display: inline-block;
+}
+section.app-show-main .show-main-header .app-rating-block .app-rating-score {
+    position: absolute;
+    width: inherit;
+    display: inline-block;
+    bottom: 21px;
+    left: 0;
+    text-align: center;
+    font-size: 27px;
+    text-shadow: 0 1px rgba(0,0,0,.15);
+    letter-spacing: -.5px;
+}
+section.app-show-main .show-main-body.first {
+    margin-top: 0;
+}
+section.app-show-main .show-main-body {
+    position: relative;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+section.app-show-main .show-main-body .main-body-developer.main-body-description {
+    margin-bottom: 0;
+}
+section.app-show-main .show-main-body .main-body-description {
+    margin-bottom: 20px;
+}
+section.app-show-main .show-main-body .main-body-developer {
+    padding: 20px 30px;
+    border-bottom: 1px solid #eee;
+}
+section.app-show-main .show-main-body .main-body-developer .text-wrapper.collapse {
+    display: block;
+    height: 225px;
+    overflow: hidden;
+}
+section.app-show-main .show-main-body .main-body-developer .text-wrapper {
+    transition: all .3s;
+}
+section.app-show-main .show-main-body .main-body-developer .text-wrapper>h3 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #999;
+}
+section.app-show-main .show-main-body .main-body-developer .text-wrapper>p {
+    margin-bottom: 0;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+section.app-show-main .show-main-body .main-body-description .body-description-more {
+    position: relative;
+    display: none;
+    text-align: center;
+}
+section.app-show-main .show-main-body .main-body-description .body-description-more .collapse .button-collapse {
+    display: none;
+}
+section.app-show-main .show-main-body .main-body-reason {
+    padding: 5px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+div.user-home-side section.app-show-main .show-main-body .section-title-developer, section.app-show-main .show-main-body .section-title, section.app-show-main .show-main-body div.user-home-side .section-title-developer {
+    margin-bottom: 15px;
+    padding: 20px 30px 0;
+    border-top: 1px solid #eee;
+    border-bottom: none;
+}
+.section-title, div.user-home-side .section-title-developer {
+    margin: 0 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+.section-title>h3, div.user-home-side .section-title-developer>h3 {
+    float: left;
+    margin: 6px 0 10px;
+    padding: 0 0 0 8px;
+    line-height: 20px;
+    font-size: 18px;
+    border-left: 4px solid #14B9C8;
+}
+section.app-show-main .show-main-body .main-body-reason>p {
+    margin-bottom: 0;
+    padding: 30px;
+    line-height: 25px;
+}
+a {
+    color: #333;
+}
+section.app-show-main .show-main-body .main-body-number {
+    padding: 5px 30px 25px;
+    border-bottom: 1px solid #eee;
+}
+section.app-show-main .show-main-body .main-body-number>p {
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+section.app-show-main .show-main-body .main-body-number>span {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding: 3px 0 0 3px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+section.app-show-main .show-main-body .main-body-images {
+    position: relative;
+    margin: 0;
+    padding: 30px 30px 0;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal {
+    position: relative;
+    width: 628px;
+    height: 280px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled {
+    height: 100%;
+    margin: 0;
+    font-size: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li .video-js {
+    width: 497px!important;
+    height: 100%!important;
+}
+section.app-show-main .show-main-body video {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li .btn, section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li .btn-save-verifying {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -24px 0 0 -24px;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.6);
+    background: #000;
+    background: rgba(0,0,0,.3);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4D000000, endColorstr=#4D000000)";
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li .btn>span, section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying>span, section.developer-app-submit .app-submit-main.form>form .form-footer section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li .btn-save-verifying>span {
+    font-size: 22px;
+    top: -1px;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li>a {
+    display: block;
+    height: 100%;
+    z-index: 2;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li>a>img {
+    height: 100%;
+    border: 1px solid #eee;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .list-unstyled>li:last-child {
+    padding-right: 0;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .body-images-control.prev {
+    left: 0;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .body-images-control {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    height: 280px;
+    top: 0;
+    margin-bottom: -27.5px;
+    width: 30px;
+    opacity: 0;
+    cursor: pointer;
+    text-decoration: none;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    transition: all .3s ease-in-out 0s;
+    background: #333;
+    background: rgba(51,51,51,.8);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC333333, endColorstr=#CC333333)";
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .body-images-control>i {
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    left: 3px;
+}
+.taptap-icon.icon-chevron-white-left {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -594px;
+}
+.taptap-icon {
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/main_icons.png?20180305) no-repeat;
+    background-size: 52px;
+}
+section.app-show-main .show-main-body .main-body-images .body-images-normal .body-images-control.next {
+    right: 0;
+}
+.taptap-icon.icon-chevron-white-right {
+    width: 24px;
+    height: 24px;
+    background-position: -20px -594px;
+}
+section.app-show-main .show-main-body .main-body-images .checkbox.active {
+    opacity: 1;
+    visibility: visible;
+}
+section.app-show-main .show-main-body .main-body-images .checkbox {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    margin: 0;
+    color: #999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out 0s;
+}
+.checkbox label, .radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+section.app-show-main .show-main-body .forum-space {
+    margin-bottom: 25px;
+}
+section.app-show-main .show-main-body .main-body-description {
+    margin-bottom: 20px;
+}
+section.app-show-main .show-main-body .main-body-description .body-description-paragraph.collapse {
+    display: block;
+    height: 120px;
+}
+section.app-show-main .show-main-body .main-body-description .body-description-paragraph {
+    position: relative;
+    padding: 0 30px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+    transition: all .5s ease-in-out 0s;
+}
+section.app-show-main .show-main-body .main-body-description .body-description-more {
+    position: relative;
+    display: none;
+    text-align: center;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list {
+    margin-bottom: 0;
+    padding: 45px 120px 130px 35px;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li {
+    float: left;
+    margin-bottom: 10px;
+    width: 30%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li>span.info-item-title {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li>span {
+    display: block;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li>span.info-item-content {
+    color: #666;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li>span {
+    display: block;
+}
+section.app-show-main .show-main-body .main-body-info .body-info-list>li>a {
+    text-decoration: underline;
+}
+.main-body-official-topic ul {
+    padding: 25px 35px 1px 30px;
+}
+.main-body-official-topic ul li {
+    padding-bottom: 10px;
+}
+.main-body-official-topic ul li a {
+    position: relative;
+    text-decoration: none;
+    display: block;
+}
+.main-body-official-topic ul li .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.main-body-official-topic ul li .text-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.main-body-official-topic ul li h3 {
+    line-height: 26px;
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: #333;
+}
+.main-body-official-topic ul li .text-wrapper .text {
+    position: relative;
+    max-height: 40px;
+    margin-top: 6px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+}
+.main-body-official-topic ul li .info {
+    padding-top: 6px;
+    font-size: 12px;
+    color: #999;
+}
+.main-body-official-topic ul li .info .time {
+    float: left;
+}
+.main-body-official-topic ul li .info .comments {
+    float: right;
+}
+.main-body-official-topic ul li .info .comments i {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 10px;
+    background: url(https://assets.tapimg.com/img/background/opinion.png?20170508) 0 -116px no-repeat;
+    background-size: 42px;
+}
+.main-body-official-topic ul li .info .comments span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+}
+.main-body-official-topic ul li:nth-child(2) {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+section.app-show-main .show-main-body {
+    position: relative;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+section.app-show-main .show-main-body .taptap-review-section {
+    margin: 0;
+    padding-top: 0!important;
+}
+.taptap-review-section {
+    padding-top: 30px;
+    background: #fff;
+}
+.taptap-review-ratings {
+    padding: 5px 15px 100px 30px;
+}
+.taptap-review-ratings .review-ratings-container {
+    padding: 2px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total {
+    float: left;
+    width: 50%;
+    padding-top: 20px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .total-rating {
+    margin-bottom: 14px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .total-rating span {
+    float: left;
+    font-size: 16px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .total-rating .text-download-rating {
+    width: auto;
+    float: left;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.text-download-rating {
+    float: left;
+    position: relative;
+    margin: 0;
+    height: 14px;
+    line-height: 14px;
+}
+.text-download-rating>i.background {
+    float: left;
+    margin-top: -1px;
+    opacity: .32;
+    display: block;
+    width: 70px;
+    height: 14px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAQAAADYBBcfAAAA90lEQ…JG5JVSijwjYgShbYYDhAm1l1yNCULfDH1a2nwL/2d/3SuVL2Mp5zjvIgAAAABJRU5ErkJggg==) repeat-x;
+    background-size: 14px;
+}
+.text-download-rating>i.score {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    display: block;
+    width: 70px;
+    height: 14px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAABD0lEQ…gqZjhC1I0n+ADBAl2EHF0sILj3BEfoIxTUx8gRdPi3wW/dLgzWif1T1AAAAABJRU5ErkJggg==) repeat-x;
+    background-size: 14px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .total-rating .text-download-rating span {
+    font-size: 16px;
+    margin-left: 5px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .total-rating span {
+    float: left;
+    font-size: 16px;
+}
+.text-download-rating>i.score+span {
+    margin-left: 72px;
+}
+.text-download-rating>span {
+    display: block;
+    vertical-align: middle;
+    line-height: 14px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .recent-7-days {
+    padding-bottom: 14px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-total .recent-7-days span {
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 12px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail {
+    float: left;
+    width: 50%;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li {
+    margin: 0 0 5px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li span {
+    float: left;
+    color: #999;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li i {
+    float: left;
+    margin: 1px 0 0;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAQAAADYBBcfAAAA90lEQ…JG5JVSijwjYgShbYYDhAm1l1yNCULfDH1a2nwL/2d/3SuVL2Mp5zjvIgAAAABJRU5ErkJggg==) repeat-x;
+    background-size: 12px;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li .rating-item {
+    margin-top: 4px;
+    float: left;
+    margin-left: 5px;
+    width: 66.6666666667%;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li:nth-child(1) .rating-item div {
+    background: #14b9c8;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li .rating-item div {
+    height: 6px;
+    background: #ddd;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li:nth-child(2) .rating-item div {
+    background: #26d9e9;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li:nth-child(3) .rating-item div {
+    background: #54e1ee;
+}
+.taptap-review-ratings .review-ratings-container .review-ratings-detail>ul>li:nth-child(4) .rating-item div {
+    background: #82e9f3;
+}
+.taptap-review-add {
+    position: relative;
+    padding: 25px;
+    background: #fafafa;
+}
+.taptap-review-add, .taptap-review-add+.taptap-review-title, .taptap-review-ratings .review-ratings-container+.taptap-review-title {
+    border-top: 1px solid #eee;
+}
+.taptap-review-add .review-add-login .img-circle, .taptap-review-add .review-add-user {
+    margin-bottom: 10px;
+}
+.taptap-review-add .review-add-login, .taptap-review-add .review-add-user {
+    text-align: center;
+}
+.taptap-review-add .review-add-login .img-circle, .taptap-review-add .review-add-user .img-circle {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.12);
+}
+.taptap-review-add .review-add-user>p {
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+.taptap-review-add .review-add-login>p, .taptap-review-add .review-add-user>p {
+    margin: 0;
+}
+.taptap-review-add .review-add-stars {
+    position: relative;
+    margin: 0 auto;
+    width: 190px;
+}
+.taptap-review-add .review-add-stars>p {
+    margin: 0;
+}
+.taptap-review-add .review-add-stars>p>i:first-child {
+    margin: 0;
+}
+.taptap-review-add .review-add-stars>p>i {
+    margin: 0 0 0 -5px;
+    cursor: pointer;
+    padding: 0 10px 0 0;
+    width: 36px;
+    height: 30px;
+    background: url(../images/000@2X.png) 0 -484px no-repeat;
+    background-size: 68px;
+    display: inline-block!important;
+}
+.taptap-review-add .review-add-stars>span {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    text-align: center;
+}
+.taptap-review-add .btn, .taptap-review-add section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-review-add .btn-save-verifying {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 2px 12px;
+    line-height: 20px;
+    color: #14B9C8;
+}
+.taptap-icon.icon-pencil {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -360px;
+}
+
+section.app-show-main .show-main-body .taptap-review-section .taptap-review-title {
+    padding: 20px 30px 35px;
+    border-bottom: 1px solid #eee;
+}
+section.app-show-main .show-main-body .taptap-review-section .taptap-review-title>ul {
+    display: none;
+}
+.taptap-review-title>ul {
+    float: left;
+    margin: 4px 0 0 15px;
+}
+.taptap-review-title>ul>li {
+    float: left;
+    line-height: 16px;
+    font-size: 12px;
+}
+.taptap-review-title>ul>li.active>a {
+    color: #333;
+    pointer-events: none;
+    cursor: default;
+}
+.taptap-review-title>ul>li>span {
+    display: block;
+    padding: 0 3px;
+}
+section.app-show-main .show-main-body .taptap-review-section .taptap-review-title .pull-right {
+    display: block;
+}
+div.user-home-side section.app-show-main .show-main-body .section-title-developer .pull-right, section.app-show-main .show-main-body .section-title .pull-right, section.app-show-main .show-main-body div.user-home-side .section-title-developer .pull-right {
+    line-height: 20px;
+    font-size: 12px;
+}
+.taptap-review-title .pull-right {
+    display: none;
+    margin-top: 4px;
+    line-height: 16px;
+    font-size: 12px;
+}
+div.user-home-side section.app-show-main .show-main-body .section-title-developer .filter-review, section.app-show-main .show-main-body .section-title .filter-review, section.app-show-main .show-main-body div.user-home-side .section-title-developer .filter-review {
+    display: none;
+    float: right;
+    margin-top: 0;
+}
+.taptap-button-opinion {
+    padding: 0 7.5px;
+    line-height: 24px;
+    color: #999;
+    border: none;
+    background: 0 0;
+    box-shadow: none;
+}
+.taptap-review-list {
+    margin: 0;
+}
+.taptap-review-item {
+    padding: 20px 30px 90px 30px;
+    border-bottom: 1px solid #eee;
+}
+.taptap-review-item .review-item-avatar {
+    float: left;
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.taptap-review-item .review-item-avatar>img {
+    width: 100%;
+}
+.taptap-review-item .review-item-text {
+    margin-left: 65px;
+    padding-top: 5px;
+}
+.taptap-review-item .review-item-text>.item-text-header {
+    margin-bottom: 3px;
+    height: 20px;
+    line-height: 20px;
+}
+.taptap-review-item .review-item-text>.item-text-header>.taptap-user {
+    float: left;
+    display: block;
+}
+span.taptap-user {
+    white-space: nowrap;
+}
+.taptap-review-item .review-item-text>.item-text-header>.taptap-user .taptap-user-name {
+    font-weight: 700;
+}
+.taptap-app-area, span.taptap-user .taptap-user-avatar, span.taptap-user .taptap-user-name, span.taptap-user .taptap-user-verified {
+    display: inline-block;
+    vertical-align: middle;
+}
+.taptap-review-item .review-item-text>.item-text-header .text-header-time {
+    float: right;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-item .review-item-text>.item-text-header .text-header-time {
+    float: right;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-item .review-item-text>.item-text-header .taptap-button-opinion {
+    float: right;
+    margin-right: 15px;
+    padding: 0;
+    line-height: 20px;
+}
+.taptap-button-opinion>i, .taptap-button-opinion>span {
+    float: left;
+    display: block;
+}
+.taptap-review-item .review-item-text .item-text-score {
+    position: relative;
+    margin-bottom: 10px;
+    height: 14px;
+    line-height: 14px;
+}
+.taptap-review-item .review-item-text .item-text-score>i.colored {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    display: block;
+    width: 70px;
+    height: 14px;
+    background: url(../images/star.png) repeat-x;
+    background-size: 14px;
+}
+.taptap-review-item .review-item-text .item-text-score>i.background {
+    float: left;
+    margin-left: -2px;
+    opacity: .32;
+    display: block;
+    width: 70px;
+    height: 14px;
+    background: url(../images/star2.png) repeat-x;
+    background-size: 14px;
+}
+.taptap-review-item .review-item-text .item-text-score .text-score-time {
+    float: left;
+    display: block;
+    margin-left: 5px;
+    padding: 0 5px 0 0;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-item .review-item-text .item-text-body {
+    word-wrap: break-word;
+}
+.taptap-review-item .review-item-text .item-text-body>p {
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.taptap-review-item .review-item-text .item-text-footer>i {
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+.taptap-icon.icon-mobile-gray {
+    width: 14px;
+    height: 14px;
+    background-position: -16px 0;
+}
+
+.taptap-review-item .review-item-text .item-text-footer .text-footer-device {
+    margin-top: 5px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-item .review-item-text .item-text-footer .text-footer-btns {
+    float: right;
+    margin: 0 -10px 0 0;
+}
+.taptap-review-item .review-item-text .item-text-footer .text-footer-btns>li {
+    float: left;
+    margin-right: 5px;
+}
+.taptap-button-opinion {
+    padding: 0 7.5px;
+    line-height: 24px;
+    color: #999;
+    border: none;
+    background: 0 0;
+    box-shadow: none;
+}
+.taptap-button-opinion.btn-sm.vote-funny>i {
+    background: url(../images/opinion.png?20170508) 0 -130px no-repeat;
+    background-size: 42px;
+}
+.taptap-button-opinion.btn-sm>i {
+    margin: 6px 0;
+    width: 12px;
+    height: 12px;
+}
+.taptap-button-opinion>i, .taptap-button-opinion>span {
+    float: left;
+    display: block;
+}
+.taptap-button-opinion.btn-sm.comment>span, .taptap-button-opinion.btn-sm.vote-down>span, .taptap-button-opinion.btn-sm.vote-funny>span, .taptap-button-opinion.btn-sm.vote-up>span {
+    text-indent: 3px;
+}
+.taptap-button-opinion>i, .taptap-button-opinion>span {
+    float: left;
+    display: block;
+}
+.taptap-button-opinion.btn-sm.vote-up>i {
+    background: url(../images/opinion.png?20170508) 0 -88px no-repeat;
+    background-size: 42px;
+}
+.taptap-review-item .review-item-text .item-text-footer .text-footer-btns>li:last-child {
+    margin-right: 0;
+}
+.taptap-button-opinion>span.active-text {
+    display: none;
+}
+.comment {
+    margin-top: 0em;
+}
+.taptap-comments {
+    margin-top: 10px;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item.official:first-child {
+    border-top: none;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item.official {
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #f0fbfe;
+    padding: 40.5px 10px;
+    border-radius: 8px;
+    margin-bottom: 7.5px;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item:first-child {
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list .taptap-topic-item .taptap-user-avatar img {
+    vertical-align: unset;
+}
+.topic-item-text .item-text-name .taptap-user-avatar img {
+    width: 100%;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item {
+    padding: 14.5px 0;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-title {
+    padding: 8.5px 0 10px;
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-avatar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-avatar>img {
+    width: 100%;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text {
+    position: relative;
+    padding-top: 5px;
+    margin-left: 55px;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-header {
+    display: -webkit-box;
+    display: flex;
+    margin-bottom: 10px;
+}
+span.taptap-user {
+    white-space: nowrap;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-header .taptap-user .taptap-user-name {
+    font-weight: 700;
+}
+.taptap-app-area, span.taptap-user .taptap-user-avatar, span.taptap-user .taptap-user-name, span.taptap-user .taptap-user-verified {
+    display: inline-block;
+    vertical-align: middle;
+}
+span.taptap-user .icon-verified {
+    position: relative;
+    margin-left: -3px;
+}
+.taptap-icon.icon-verified {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    box-sizing: content-box;
+    background: 0 0;
+}
+.taptap-icon.icon-verified img, .taptap-icon.icon-verified-lg img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-body {
+    word-break: break-word;
+}
+.taptap-review-item .review-item-text .item-text-body {
+    word-wrap: break-word;
+}
+.taptap-review-item .review-item-text .item-text-body>p {
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-footer .text-footer-btns {
+    float: none;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-footer .text-footer-btns>li, .taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-footer .text-footer-btns>li.dropdown.admin {
+    float: left;
+}
+.taptap-comments .taptap-comments-list .taptap-comment-item .comment-item-text .item-text-footer .text-footer-btns>li>span {
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-review-item .open {
+    display: list-item;
+}
+.taptap-comments .taptap-comments-buttons {
+    margin-left: 55px;
+}
+.taptap-comments .taptap-comments-buttons .comments-buttons-page {
+    float: left;
+    margin-left: -5px;
+}
+.taptap-paginator {
+    text-align: center;
+}
+.taptap-paginator .pagination {
+    margin: 0;
+}
+.taptap-comments .taptap-comments-buttons .comments-buttons-page .taptap-paginator .pagination>li:first-child, .taptap-comments .taptap-comments-buttons .comments-buttons-page .taptap-paginator .pagination>li:last-child {
+    display: none;
+}
+.taptap-comments .taptap-comments-buttons .comments-buttons-page .taptap-paginator .pagination>li {
+    padding: 1px 7px;
+    font-size: 12px;
+}
+.taptap-comments-buttons .taptap-paginator .pagination>li span {
+    color: #666;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.taptap-paginator .pagination>li>span {
+    cursor: default;
+}
+.taptap-paginator .pagination>li>a, .taptap-paginator .pagination>li>span {
+    margin: 0 5px;
+    padding: 3px 9px;
+    color: #666;
+    border-radius: 3px;
+    border-color: #ddd;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.taptap-comments-buttons .taptap-paginator .pagination>li.active a, .taptap-comments-buttons .taptap-paginator .pagination>li.active span {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    box-shadow: none;
+}
+.taptap-comments-buttons .taptap-paginator .pagination>li a {
+    border: none;
+    box-shadow: none;
+    color: #14B9C8;
+    background-color: transparent;
+}
+.taptap-review-item .reply-review-button {
+    float: right;
+}
+.taptap-comments .taptap-comments-buttons .comments-buttons-reply {
+    float: right;
+    line-height: 25px;
+    color: #14B9C8;
+}
+section.app-show-main .show-main-body .main-body-footer .taptap-button-more {
+    border-top: 1px solid #eee;
+    background: #fafafa;
+}
+.taptap-button-more {
+    text-align: center;
+}
+section.app-show-main .show-main-body .main-body-footer .taptap-button-more .btn, section.app-show-main .show-main-body .main-body-footer .taptap-button-more section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer section.app-show-main .show-main-body .main-body-footer .taptap-button-more .btn-save-verifying {
+    margin: 21px 0;
+    line-height: 20px;
+    font-size: 16px;
+    border: none;
+}
+.taptap-button-more .btn, .taptap-button-more section.developer-app-submit .app-submit-main.form>form .form-footer .btn-save-verifying, section.developer-app-submit .app-submit-main.form>form .form-footer .taptap-button-more .btn-save-verifying {
+    padding: 8px 25.5px;
+}
+.btn-primary {
+    border-color: #12A7B4;
+    background: #12A7B4;
+}
+.btn-default, .btn-primary {
+    border-radius: 3px;
+    box-shadow: none;
+}
+div.user-home-side section.app-show-main .show-main-body .main-body-topics .section-title-developer, section.app-show-main .show-main-body .main-body-topics .section-title, section.app-show-main .show-main-body .main-body-topics div.user-home-side .section-title-developer {
+    height: 50px;
+    margin-bottom: 0;
+    padding: 15px 15px 15px 30px;
+    border-bottom: 1px solid #eee;
+}
+div.user-home-side section.app-show-main .show-main-body .section-title-developer, section.app-show-main .show-main-body .section-title, section.app-show-main .show-main-body div.user-home-side .section-title-developer {
+    margin-bottom: 15px;
+    padding: 20px 30px 0;
+    border-top: 1px solid #eee;
+    border-bottom: none;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list, section.app-show-main .show-main-body .main-body-topics .body-topics-list ul {
+    margin-bottom: 0;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list, section.app-show-main .show-main-body .main-body-topics .body-topics-list ul {
+    margin-bottom: 0;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list .taptap-topic-item:first-child {
+    margin-top: 20px;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list .taptap-topic-item {
+    padding-bottom: 15px;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list .taptap-topic-item .topic-item-text {
+    padding: 0 30px 35px;
+}
+.topic-item-text {
+    position: relative;
+    padding: 0 20px 20px;
+    border-bottom: 1px solid #eee;
+}
+span.taptap-user .taptap-user-avatar.female {
+    border: 1px solid #ffdcee;
+}
+.topic-item-text .item-text-name .taptap-user-avatar {
+    width: 20px;
+    height: 20px;
+}
+.topic-item-text .item-text-name .taptap-user-name {
+    font-size: 12px;
+    color: #999;
+}
+span.taptap-user .icon-verified {
+    position: relative;
+    margin-left: -3px;
+}
+.topic-item-text .item-text-title {
+    display: -webkit-inline-box;
+    display: inline-flex;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.topic-item-text .item-text-title>span {
+    width: auto;
+    display: inline-block;
+    line-height: 18px;
+    padding: 0 4px;
+    margin-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #14B9C8;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #14B9C8;
+}
+.topic-item-text .item-text-title>h2 {
+    -webkit-box-flex: 1;
+    flex: auto;
+    display: block;
+    width: 50%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    vertical-align: middle;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.topic-item-text .item-text-summary {
+    margin-bottom: 7px;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+section.app-show-main .show-main-body .main-body-topics .body-topics-list, section.app-show-main .show-main-body .main-body-topics .body-topics-list ul {
+    margin-bottom: 0;
+}
+.topic-item-text .item-text-footer .pull-right {
+    margin-left: -2.5px;
+    margin-bottom: 0;
+}
+.topic-item-text .item-text-footer .pull-right>li {
+    padding: 0 2.5px;
+}
+.topic-item-text .item-text-footer .pull-right>li>a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.topic-item-text .item-text-footer .pull-right>li>a>i.icon-topic {
+    background-position: 0 -171px;
+}
+.topic-item-text .item-text-footer .pull-right>li>a>i {
+    float: left;
+    display: block;
+    margin-top: 4px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/opinion.png?20170508) 0 -116px no-repeat;
+    background-size: 42px;
+}
+.topic-item-text .item-text-footer .pull-right>li>a>span {
+    display: block;
+    margin-left: 15px;
+}
+.topic-item-text .item-text-footer>span {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.taptap-page-side {
+    float: right;
+    width: 32.3076923077%;
+}
+section.app-show-side .taptap-social-spread {
+    margin-bottom: 16px;
+}
+section.taptap-social-spread {
+    margin-bottom: 20px;
+}
+section.taptap-social-spread .social-spread-wechat {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+section.taptap-social-spread .social-spread-wechat>img {
+    float: left;
+    display: block;
+    width: 100px;
+}
+section.taptap-social-spread .social-spread-wechat>div {
+    padding: 5px 0 35px;
+    margin-left: 110px;
+}
+section.taptap-social-spread .social-spread-wechat>div .spread-logo-wrap {
+    display: block;
+    margin: 0 0 5px;
+    height: 25px;
+    line-height: 25px;
+    color: #14B9C8;
+    font-size: 18px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
+    overflow: hidden;
+}
+section.taptap-social-spread .social-spread-wechat>div .spread-logo-wrap .icon-logo {
+    font-size: 69px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-divide {
+    position: relative;
+    margin: 0 0 10px;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-divide>p {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+    background: #fff;
+    z-index: 2;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos {
+    margin-left: -10px;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos {
+    margin: 0;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li {
+    float: left;
+    position: relative;
+    margin-left: 10px;
+    padding: 0;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li .icon-font.ic_wechat {
+    background-color: #54be36;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li .icon-font {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #fff;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div.wechat-logo-qrcode {
+    left: -40px;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div {
+    position: absolute;
+    bottom: 100%;
+    padding-bottom: 10px;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div.wechat-logo-qrcode>span {
+    width: 110px;
+    height: 110px;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div>span {
+    border: 1px solid #ddd;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div>span {
+    display: block;
+    position: relative;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+section.taptap-social-spread .social-spread-wechat .spread-wechat-logos>li>div>span>img {
+    width: 100%;
+}
+span.expand {
+    float: right;
+    color: #14B9C8;
+    cursor: pointer;
+}
+section.taptap-page-side .show-side-body {
+    padding: 15px 20px;
+}
+section.app-show-side .show-side-body {
+    margin: 0 0 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+.app-tag-body {
+    max-height: 80px;
+    overflow: hidden;
+}
+ul.side-body-tag {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+    transition: max-height .5s ease 0s;
+}
+ul.side-body-tag>li {
+    margin: 5px 8px 6px 0;
+    padding: 0;
+    background-color: transparent;
+    vertical-align: middle;
+}
+ul.side-body-tag>li a, ul.side-body-tag>li.tag-add {
+    display: block;
+    padding: 4px 10px;
+    border: 1px solid #14B9C8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #14B9C8;
+}
+ul.side-body-tag>li.tag-add {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background: url(https://www.taptap.com/img/background/main_icons.png?20180305) 0 -608px no-repeat;
+    background-size: 72px;
+    cursor: pointer;
+}
+ul.side-body-tag>li a, ul.side-body-tag>li.tag-add {
+    display: block;
+    padding: 4px 10px;
+    border: 1px solid #14B9C8;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #14B9C8;
+}
+section.app-show-side .show-side-event {
+    margin: 0 0 20px;
+}
+section.app-show-side .show-side-event .side-event {
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    margin-bottom: 15px;
+}
+section.app-show-side .show-side-event .side-event>a {
+    display: block;
+}
+section.app-show-side .show-side-event .side-event>a>img {
+    width: 100%;
+}
+section.app-show-side .show-side-event .side-simple-event {
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    display: block;
+}
+section.app-show-side .show-side-event .side-simple-event>div {
+    padding: 20px 0 10px;
+    text-align: center;
+}
+section.app-show-side .show-side-event .side-simple-event>div>h3 {
+    margin: 0 0 20px;
+    padding-top: 5px;
+    font-size: 18px;
+    color: #14B9C8;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+section.app-show-side .show-side-event .side-simple-event>div .simple-event-apps {
+    font-size: 0;
+    overflow: hidden;
+}
+section.app-show-side .show-side-event .side-simple-event>div .simple-event-apps>div {
+    display: inline-block;
+    margin-right: 11px;
+}
+section.app-show-side .show-side-event .side-simple-event>div .simple-event-apps>div>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+section.taptap-page-side .show-side-body {
+    padding: 15px 20px;
+}
+section.app-show-side .show-side-body {
+    margin: 0 0 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+.taptap-side-item {
+    float: none;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #eee;
+}
+.taptap-side-item .side-item-left {
+    float: left;
+    display: block;
+    max-width: 90px;
+    max-height: 90px;
+}
+.taptap-side-item .side-item-left>img {
+    width: 100%;
+}
+.taptap-side-item .side-item-right {
+    margin-left: 105px;
+    padding: 10px 0 0;
+    height: 90px;
+}
+.taptap-side-item .side-item-right .item-right-title {
+    display: inline-block;
+    margin-bottom: 10px;
+    max-height: 44px;
+    line-height: 22px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.flex-text-overflow {
+    display: -webkit-inline-box!important;
+    display: inline-flex!important;
+    max-width: 100%;
+    white-space: nowrap;
+}
+.flex-text-overflow .flex-text {
+    -webkit-box-flex: 1;
+    flex: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.taptap-side-item .side-item-right .item-right-label>a {
+    float: left;
+    display: block;
+    color: #666;
+}
+.taptap-side-item .side-item-right .item-right-label .right-label-rating {
+    display: block;
+    margin: 2px 0 0;
+    line-height: 15px;
+    color: #999;
+}
+.taptap-side-item .side-item-right .item-right-label .right-label-rating>span {
+    float: left;
+    display: block;
+    vertical-align: middle;
+}
+.taptap-side-item .side-item-right .item-right-label .right-label-rating>i {
+    float: left;
+    margin: 0 0 0 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/star.png) repeat-x;
+    background-size: 14px;
+}
+.row {
+    margin-right: 70px;
+    margin-left: -70px;
+}
+
+.taptap-button-opinion.btn-sm.comment:hover>i {
+    background: url(../images/opinion.png?20170508) -14px -116px no-repeat;
+    background-size: 42px;
+}

@@ -6,20 +6,23 @@ public class CommentTO
 {
 	private int commentId;
 	private int userId;
+	private int topicId;
 	private int gameId;
+	private int rating;
 	private String comment; 
-	private Date date;
+	private String date;
 	public CommentTO(int commentId)
 	{
 		this.commentId=commentId;
 	}
-	public CommentTO(int commentId,int userId,int gameId,String comment,Date date)
+	public CommentTO(int commentId,int userId,int gameId,String comment,String date ,int rating)
 	{
 		this.comment=comment;
 		this.commentId=commentId;
 		this.date=date;
 		this.gameId=gameId;
 		this.userId=userId;
+		this.rating=rating;
 	}
 	public int getCommentId()
 	{
@@ -53,12 +56,28 @@ public class CommentTO
 	{
 		this.gameId = gameId;
 	}
-	public Date getDate()
+	public String getDate()
 	{
 		return date;
 	}
-	public void setDate(Date date)
+	public void setDate(String  date)
 	{
 		this.date = date;
+	}
+	public int getRating()
+	{
+		return rating;
+	}
+	public void setRating(int rating)
+	{
+		this.rating = rating;
+	}
+	public int getTopicId()
+	{
+		return topicId;
+	}
+	public void setTopicId(int topicId)
+	{
+		this.topicId = topicId;
 	}
 }

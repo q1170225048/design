@@ -93,16 +93,7 @@ label{
     display: block;
     float: left;
 }
-button.btn.btn-primary.btn-lg {
-	color: #000;
-	font-size: 1.1em;
-	font-weight: 400;
-	border: none;
-	background-color: #fff;
-	padding: 0;
-	margin: 0 1em;
-	vertical-align: text-top;
-}
+
 .list_of_cities {
 	width: 100%;
 	padding: 8px;
@@ -221,14 +212,7 @@ div#OR {
 h3.other-nw {
 	margin: 16px 0;
 }
-button.btn.btn-primary {
-	  background-color: #003b64;
-  padding: 3px 16px 5px;
-  font-weight: 500;
-  border: none;
-  border-radius: 0;
-  font-family: 'Open Sans', sans-serif;
-}
+
 button.btn.btn-primary.btn-sm,button.btn.btn-default.btn-sm {
 	  background-color: #003b64;
   padding: 7px 18px 7px;

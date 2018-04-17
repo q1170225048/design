@@ -196,71 +196,84 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     </div>
 	
     <div class="fbneirong">
-      <form class="am-form">
+      <form class="am-form" action="Upload" enctype="multipart/form-data" method="post">
         <div class="am-form-group am-cf">
           <div class="zuo">游戏名称：</div>
           <div class="you">
-            <input type="text" class="am-input-sm" id="doc-ipt-email-1" placeholder="请输入名称">
+            <input type="text" class="am-input-sm" name="gamename" placeholder="请输入名称">
           </div>
         </div>
         <div class="am-form-group am-cf">
           <div class="zuo">标签：</div>
           <div class="you">
-            <input type="text" class="am-input-sm" id="doc-ipt-pwd-1" placeholder="请输入标签，多标签以‘,’隔开">
+            <input type="text" class="am-input-sm" name="genres" placeholder="请输入标签，多标签以‘,’隔开">
           </div>
         </div>
         <div class="am-form-group am-cf">
           <div class="zuo">开发商：</div>
           <div class="you">
-            <input type="text" class="am-input-sm" id="doc-ipt-pwd-1" >
+            <input type="text" class="am-input-sm" name="developer" >
           </div>
         </div>
         <div class="am-form-group am-cf">
           <div class="zuo">描述：</div>
           <div class="you">
-            <textarea class="" rows="2" id="doc-ta-1"></textarea>
+            <textarea class="" rows="2" name="intro"></textarea>
           </div>
         </div>
         <div class="am-form-group am-cf">
           <div class="zuo">截图：</div>
-          <div class="you"><input type="file" id="doc-ipt-file-1"> </div>
+          <div class="you"><input type="file" name="screenshot1"> </div>
         </div>
         
         <div class="am-form-group am-cf">
           <div class="zuo">文件：</div>
           <div class="you" style="height: 45px;">
-            <input type="file" id="doc-ipt-file-1">
+            <input type="file" id="doc-ipt-file-1"name="download">
             <p class="am-form-help">请选择要上传的文件...</p>
           </div>
         </div>
-        
-        
+         <div class="am-form-group am-cf">
+          <div class="zuo">封面：</div>
+          <div class="you"><input type="file" name="cover"> </div>
+        </div>
         <div class="am-form-group am-cf">
-          <div class="zuo">内容：</div>
+          <div class="zuo">大小：</div>
           <div class="you">
-            <textarea class="" rows="2" id="doc-ta-1"></textarea>
+            <input type="text" class="am-input-sm" name="size"style="width:200px;" >
           </div>
         </div>
+        
         
         <div class="am-form-group am-cf">
           <div class="zuo">版本号：</div>
           <div class="you">
-            <input type="text" class="am-input-sm" id="doc-ipt-pwd-1"style="width:200px;" >
+            <input type="text" class="am-input-sm" name="version"style="width:200px;" >
           </div>
         </div>
         
         
         <div class="am-form-group am-cf">
-        <div class="zuo">推荐：</div>
+        <div class="zuo">是否付费：</div>
         <div class="you" style="margin-top: 5px;">
           <label class="am-checkbox-inline">
-            <input type="checkbox" value="option1">
-            置顶</label>
-            </div>
+            <input type="checkbox" value="1"name="ispaid" id= "pay">
+            付费
+            </label>
+            <label class="am-checkbox-inline">
+            <input type="checkbox" value="0"name="ispaid" id= "free">
+            免费</label>
+         </div>
+        </div>
+        <div class="am-form-group am-cf">
+          <div class="zuo">价格：</div>
+          <div class="you">
+            <input type="text" class="am-input-sm" name="price"id= "price"style="width:200px;" >
+          </div>
         </div>
         <div class="am-form-group am-cf">
           <div class="you" style="margin-left: 11%;">
-              <button type="submit" class="am-btn am-btn-success am-radius">发布并关闭窗口</button>&nbsp;  &raquo; &nbsp; <button type="submit" class="am-btn am-btn-secondary am-radius">发布并继续发布</button>
+              <button type="submit" class="am-btn am-btn-success am-radius">发布并关闭窗口</button>
 
           </div>
         </div>
